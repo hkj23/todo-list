@@ -1,0 +1,56 @@
+body {
+  background: #CAE9FF;
+  font-family: Verdana, Geneva, sans-serif;
+  height: 100%;
+  
+}
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.userInput {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+input {
+  margin-right: 1rem;
+}
+ul {
+  display: block;
+}
+.done {
+  text-decoration: line-through;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: burlywood;
+  width: fit-content;
+  column-gap: 10px;
+}
+.delClass {
+  display: flex;
+  background-color: royalblue;
+  
+}
+.taskclass{
+  cursor: pointer;
+}
